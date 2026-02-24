@@ -1,0 +1,28 @@
+{
+  "name": "timetree-google-calendar-sync",
+  "version": "1.0.0",
+  "description": "Sync TimeTree calendar events to Google Calendar via GitHub Actions cron",
+  "type": "module",
+  "scripts": {
+    "sync": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitaro/timetree-google-calendar-sync.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aitaro/timetree-google-calendar-sync/issues"
+  },
+  "homepage": "https://github.com/aitaro/timetree-google-calendar-sync#readme",
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "node-ical": "^0.25.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

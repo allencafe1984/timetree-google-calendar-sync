@@ -1,0 +1,25 @@
+node_modules/
+dist/
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+
+# Environment
+.env
+.env.*
+
+# Credentials
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# Output
+*.ics
+
+# OS
+.DS_Store
+
+# Claude
+.claude/
