@@ -8,6 +8,7 @@ export interface CalendarEvent {
   end: Date;
   allDay: boolean;
   recurrence: string[];
+  startTimezone: string | null;
   lastModified: Date | null;
 }
 
